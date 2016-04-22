@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-
-
+ruby '2.2.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
@@ -24,6 +23,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sass', '3.2.19'
 gem 'bower-rails'
 gem 'foreman'
+gem 'angular-rails-templates'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
